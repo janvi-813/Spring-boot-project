@@ -1,9 +1,9 @@
 package com.example.demo;
 
-import jakarta.persistence.*;  // ✅ JPA imports for entity and annotations
-import java.util.List;  // ✅ Import for List type
+import jakarta.persistence.*; 
+import java.util.List;  
 
-@Entity  // Marks this class as a database table
+@Entity  
 public class Author {
 
     @Id
